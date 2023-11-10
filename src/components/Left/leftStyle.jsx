@@ -46,6 +46,11 @@ export const CardContent = styled.article`
           font-size: 18px;
           margin-right: 40px;
         }
+
+        @media screen and (max-width: 769px){
+          font-size: 15px;
+          margin-right: 60px;
+        }
       }
 
       .infos {
