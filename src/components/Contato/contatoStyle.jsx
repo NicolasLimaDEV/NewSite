@@ -10,7 +10,8 @@ export const ContatoContainer = styled.section`
   h3{
     font-weight: 400;
     font-size: 17px;
-    opacity: 0.8;
+    opacity: 0.6;
+    margin-top: 5px;
   }
 
   p{
@@ -30,18 +31,11 @@ export const ContatoContainer = styled.section`
       cursor: pointer;
       margin-left: 10px;
     }
-    
-    span{
-      margin-right: 5px;
-      font-size: 14px;
-    }
 
     a{
       font-size: 16px;
       font-weight: bold;
       color: var(--linkedinColor);
-      display: flex;
-      align-items: center;
       text-decoration: none;
     }
   }

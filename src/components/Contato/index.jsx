@@ -11,7 +11,7 @@ const Contato = ()=> {
 
       <button>
         <a href="https://linkedin.com/in/nicolaslimadev" target='_blank'>
-          <span><FaLinkedinIn color='#0882BD' /></span>
+        &rsaquo;
           Linkedln
         </a>
       </button>
