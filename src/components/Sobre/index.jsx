@@ -5,12 +5,12 @@ const SobreMim = () => {
     <Sobre>
       <h1>Sobre mim</h1>
       <p>
-        Olá eu sou Nicolas! Sou desenvolvedor front-end, estou cursando <strong>Analise e Desenvolvimento
-        de Sistemas pela Faculdade Impacta</strong>. Antes mesmo de começar, tenho
-        diversos certificados e projetos que me fizeram conseguir a primeira
-        vaga. Aprendi a programar pela Udemy, Alura, Youtube... Sempre me
-        mantenho atualizado sobre as Stacks que utilizo e venho sempre
-        aprimorando coisas que já sei.
+        Comecei a explorar o mundo da tecnologia em 2021, iniciando com cursos voltados para Front-end (HTML, CSS, Javascript), logo em seguida fui me aprofundar até conseguir meu primeiro emprego em 2022. 
+
+        Sempre estudando as ferramentas atuais do mercado e em busca de evolução.
+        Em 2023 dei inicio ao curso de Análise e Desenvolvimento de Sistemas pela Faculdade Impacta. E junto iniciei a minha segunda experiência como Desenvolvedor Web. 
+
+        Possuo facilidade de aprender coisas novas e me adaptar a ambientes novos.
       </p>
     </Sobre>
   );
