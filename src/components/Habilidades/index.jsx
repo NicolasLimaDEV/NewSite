@@ -1,16 +1,17 @@
 import { Stacks, SkillsIcons } from "./habilidadesStyle";
 
-import iconHTML from '../../assets/icones/html-5.png'
-import iconCSS from '../../assets/icones/css-3.png'
-import iconJS from '../../assets/icones/js.png'
-import iconBS from '../../assets/icones/bootstrap.png'
-import iconReact from '../../assets/icones/react.svg'
-import iconSC from '../../assets/icones/styledcomponents.svg'
-import iconGIT from '../../assets/icones/Git_icon.svg.png'
-import iconFig from '../../assets/icones/figma.png'
-import iconWP from '../../assets/icones/wordpress.png'
-import iconSA from '../../assets/icones/sass.png'
-import iconEle from '../../assets/icones/elementor.png'
+import iconHTML from "../../assets/icones/html-5.png";
+import iconCSS from "../../assets/icones/css-3.png";
+import iconJS from "../../assets/icones/js.png";
+import iconBS from "../../assets/icones/bootstrap.png";
+import iconReact from "../../assets/icones/react.svg";
+import iconSC from "../../assets/icones/styledcomponents.svg";
+import iconGIT from "../../assets/icones/Git_icon.svg.png";
+import iconFig from "../../assets/icones/figma.png";
+import iconWP from "../../assets/icones/wordpress.png";
+import iconSA from "../../assets/icones/sass.png";
+import iconEle from "../../assets/icones/elementor.png";
+import iconNode from "../../assets/icones/node-icon.png";
 
 const Habilidades = () => {
   //Skills API
@@ -69,6 +70,11 @@ const Habilidades = () => {
       id: 11,
       icon: iconEle,
       name: "Elementor",
+    },
+    {
+      id: 12,
+      icon: iconNode,
+      name: "NodeJS",
     },
   ];
 

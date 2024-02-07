@@ -5,11 +5,11 @@ export const CardContent = styled.article`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 769px) {
     width: 100%;
 
-    .title-infos{
-      h3{
+    .title-infos {
+      h3 {
         font-size: 15px;
       }
     }
@@ -26,7 +26,7 @@ export const CardContent = styled.article`
       border-radius: 50%;
       margin-right: 10px;
 
-      @media screen and (max-width: 769px){
+      @media screen and (max-width: 769px) {
         margin-right: 10px;
       }
     }
@@ -34,7 +34,7 @@ export const CardContent = styled.article`
     .title-infos {
       color: var(--textBranco);
 
-      h1{
+      h1 {
         font-size: 20px;
       }
 
@@ -42,12 +42,12 @@ export const CardContent = styled.article`
         font-weight: 200;
         font-size: 20px;
 
-        @media screen and (max-width: 1024px){
+        @media screen and (max-width: 1024px) {
           font-size: 18px;
           margin-right: 40px;
         }
 
-        @media screen and (max-width: 769px){
+        @media screen and (max-width: 769px) {
           font-size: 15px;
           margin-right: 60px;
         }
@@ -60,7 +60,7 @@ export const CardContent = styled.article`
         color: var(--textCinza);
         font-weight: bold;
 
-        @media screen and (max-width: 1024px){
+        @media screen and (max-width: 1024px) {
           font-size: 12px;
         }
       }
@@ -73,8 +73,8 @@ export const Contratacao = styled.article`
   align-items: center;
   margin-top: 7px;
 
-  @media screen and (max-width: 769px){
-    p{
+  @media screen and (max-width: 769px) {
+    p {
       font-size: 14px;
     }
   }
@@ -111,13 +111,19 @@ export const Contratacao = styled.article`
 export const SocialInfo = styled.div`
   margin-top: 15px;
   color: var(--textBranco);
-  
-  h4{
+
+  h4 {
     color: var(--textCinza);
     font-weight: 400;
     font-style: italic;
+
+    span {
+      color: var(--verde);
+      font-weight: bold;
+      font-size: 13px;
+    }
   }
-`
+`;
 
 export const LinksItens = styled.div`
   margin-top: 20px;
@@ -125,27 +131,27 @@ export const LinksItens = styled.div`
   flex-direction: column;
   width: 150px;
 
-  button{
+  button {
     margin: 5px 0;
     padding: 8px 20px;
     border-radius: 5px;
     background-color: var(--menuMobile);
     border: 1px solid var(--borderColor);
-    transition: .3s all;
-    
-    &:hover{
+    transition: 0.3s all;
+
+    &:hover {
       background-color: var(--borderColor);
       cursor: pointer;
     }
-    
-    span{
+
+    span {
       padding-right: 10px;
       font-size: 15px;
       display: flex;
       align-items: center;
     }
-    
-    a{
+
+    a {
       font-size: 15px;
       color: var(--textBranco);
       text-decoration: none;
@@ -154,4 +160,4 @@ export const LinksItens = styled.div`
       font-weight: bold;
     }
   }
-`
+`;
