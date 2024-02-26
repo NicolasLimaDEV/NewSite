@@ -2,7 +2,7 @@ import { ExpContainer, ExpCardContent, ExpoCard } from "./expStyle";
 
 import LogoCT from "../../assets/cthublogo.png";
 import LogoEV from "../../assets/evitrinelogo.png";
-import LogoID from "../../assets/integracaoDigita-logo.png";
+import LogoID from "../../assets/integracaoDigital-logo.png";
 
 const Exp = () => {
   const listXP = [

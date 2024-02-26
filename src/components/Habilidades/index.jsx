@@ -12,6 +12,7 @@ import iconWP from "../../assets/icones/wordpress.png";
 import iconSA from "../../assets/icones/sass.png";
 import iconEle from "../../assets/icones/elementor.png";
 import iconNode from "../../assets/icones/node-icon.png";
+import iconPython from "../../assets/icones/Python.svg.png";
 
 const Habilidades = () => {
   //Skills API
@@ -75,6 +76,11 @@ const Habilidades = () => {
       id: 12,
       icon: iconNode,
       name: "NodeJS",
+    },
+    {
+      id: 13,
+      icon: iconPython,
+      name: "Python",
     },
   ];
 
