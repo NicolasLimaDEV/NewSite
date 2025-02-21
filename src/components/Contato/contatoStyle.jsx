@@ -4,13 +4,13 @@ export const ContatoContainer = styled.section`
   margin-top: 50px;
 
   h1{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   h3{
     font-weight: 400;
     font-size: 17px;
-    opacity: 0.6;
+    opacity: 0.8;
     margin-top: 5px;
   }
 

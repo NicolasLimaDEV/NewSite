@@ -4,7 +4,7 @@ export const SectionPort = styled.section`
   margin-bottom: 70px;
 
   h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 5px;
   }
 
@@ -14,7 +14,7 @@ export const SectionPort = styled.section`
   }
 
   .projetoFic {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .message{

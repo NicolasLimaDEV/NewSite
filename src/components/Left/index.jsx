@@ -40,7 +40,7 @@ const Left = () => {
 
         <div className="title-infos">
           <h1>Nicolas Lima</h1>
-          <h3>Desenvolvedor Front-end</h3>
+          <h3>Desenvolvedor Front-end / Back-end</h3>
 
           <div className="infos">
             <p>
@@ -62,7 +62,7 @@ const Left = () => {
         <h3>FIT - Faculdade Impacta</h3>
         <h4>
           Análise e Desenvolvimento de Sistemas <br />
-          <span>3° Semestre</span>
+          <span>5° Semestre</span>
         </h4>
 
         <LinksItens>

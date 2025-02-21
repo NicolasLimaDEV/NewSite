@@ -77,10 +77,8 @@ const Portifolio = () => {
     <SectionPort>
       <h1>Portifólio</h1>
       <p>
-        Ao longo da minha carreira desenvolvi diversos sites, fictícios e
-        projetos reais.
-        <br />
-        <br />
+        Ao longo da minha carreira desenvolvi diversos projetos.
+        <br /><br/>
         <span className="message">
           Abaixo demonstro uns dos meus trabalhos realizados!
         </span>

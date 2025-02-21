@@ -4,7 +4,7 @@ export const ExpContainer = styled.section`
   margin-bottom: 70px;
 
   h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 `;
 
@@ -34,7 +34,8 @@ export const ExpoCard = styled.div`
   }
 
   img {
-    width: 90px;
+    width: 63px;
+    margin-right: 10px;
   }
 
   h1 {
@@ -52,7 +53,7 @@ export const ExpoCard = styled.div`
   p {
     margin-top: 5px;
     color: var(--textCinza);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 
     strong {

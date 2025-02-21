@@ -12,76 +12,73 @@ import iconWP from "../../assets/icones/wordpress.png";
 import iconSA from "../../assets/icones/sass.png";
 import iconEle from "../../assets/icones/elementor.png";
 import iconNode from "../../assets/icones/node-icon.png";
-import iconPython from "../../assets/icones/Python.svg.png";
+import iconJava from "../../assets/icones/java-icon.webp";
+import iconSpring from '../../assets/icones/spring-logo.png'
 
 const Habilidades = () => {
   //Skills API
   const skills = [
     {
       id: 1,
-      icon: iconHTML,
-      name: "HTML",
-    },
-    {
-      id: 2,
-      icon: iconCSS,
-      name: "CSS",
-    },
-    {
-      id: 3,
       icon: iconJS,
       name: "Javascript",
     },
     {
-      id: 4,
-      icon: iconBS,
-      name: "Bootstrap",
-    },
-    {
-      id: 5,
-      icon: iconReact,
-      name: "ReactJS",
-    },
-    {
-      id: 6,
-      icon: iconSA,
-      name: "SASS",
-    },
-    {
-      id: 7,
-      icon: iconSC,
-      name: "Styled-Components",
-    },
-    {
-      id: 8,
-      icon: iconGIT,
-      name: "GIT",
-    },
-    {
-      id: 9,
-      icon: iconFig,
-      name: "Figma",
-    },
-    {
-      id: 10,
-      icon: iconWP,
-      name: "WordPress",
-    },
-    {
-      id: 11,
-      icon: iconEle,
-      name: "Elementor",
-    },
-    {
-      id: 12,
+      id: 2,
       icon: iconNode,
       name: "NodeJS",
     },
     {
-      id: 13,
-      icon: iconPython,
-      name: "Python",
+      id: 3,
+      icon: iconReact,
+      name: "ReactJS",
     },
+    {
+      id: 4,
+      icon: iconJava,
+      name: "JAVA"
+    },
+    {
+      id: 5,
+      icon: iconSpring,
+      name: "Spring Boot"
+    },
+    {
+      id: 6,
+      icon: iconBS,
+      name: "Bootstrap",
+    },
+    {
+      id: 7,
+      icon: iconSA,
+      name: "SASS",
+    },
+    {
+      id: 8,
+      icon: iconSC,
+      name: "Styled-Components",
+    },
+    {
+      id: 9,
+      icon: iconGIT,
+      name: "GIT",
+    },
+    {
+      id: 10,
+      icon: iconFig,
+      name: "Figma",
+    },
+    {
+      id: 11,
+      icon: iconWP,
+      name: "WordPress",
+    },
+    {
+      id: 12,
+      icon: iconEle,
+      name: "Elementor",
+    },
+    
   ];
 
   return (

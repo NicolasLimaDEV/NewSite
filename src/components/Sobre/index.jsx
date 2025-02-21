@@ -5,12 +5,9 @@ const SobreMim = () => {
     <Sobre>
       <h1>Sobre mim</h1>
       <p>
-        Comecei a explorar o mundo da tecnologia em 2021, iniciando com cursos voltados para Front-end (HTML, CSS, Javascript), logo em seguida fui me aprofundar até conseguir meu primeiro emprego em 2022. 
-
-        Sempre estudando as ferramentas atuais do mercado e em busca de evolução. <br/>
-        Em 2023 dei inicio ao curso de Análise e Desenvolvimento de Sistemas pela Faculdade Impacta. E junto iniciei a minha segunda experiência como Desenvolvedor Web. 
-
-        Possuo facilidade de aprender coisas novas e me adaptar a ambientes novos.
+        Com sólida experiência em front-end, utilizo as principais stacks para criar aplicações web modernas e eficientes. Também tenho vasta experiência em WordPress, desenvolvendo desde sites institucionais até soluções personalizadas. <br/>
+        <br/>
+        Busco sempre aprimorar minhas habilidades e colaborar em projetos que desafiem e expandam meus conhecimentos.
       </p>
     </Sobre>
   );

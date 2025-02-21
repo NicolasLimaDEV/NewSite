@@ -2,31 +2,9 @@ import { ExpContainer, ExpCardContent, ExpoCard } from "./expStyle";
 
 import LogoCT from "../../assets/cthublogo.png";
 import LogoEV from "../../assets/evitrinelogo.png";
-import LogoID from "../../assets/integracaoDigital-logo.png";
+import LogoID from "../../assets/integracao-branco.webp";
 
 const Exp = () => {
-  const listXP = [
-    {
-      id: 1,
-      empresa: "E-Vitrine Marketing",
-      logoEmpresa: LogoEV,
-      cargo: "Desenvolvedor Web - Freelancer",
-      data: "Janeiro 2023",
-      atual: "Atualmente",
-      local: "São Paulo, Brasil",
-      desc: "Sites com WordPress Elementor, HTML, CSS, Javascript, Hospedagem, Otimização para páginas de alta conversão, Figma, Photoshop.",
-    },
-    {
-      id: 2,
-      empresa: "CT Hub",
-      logoEmpresa: LogoCT,
-      cargo: "Desenvolvedor Web",
-      data: "Maio de 2022 - Outubro de 2022",
-      local: "São Paulo, Brasil",
-      desc: "Páginas com WordPress Elementor, HTML, CSS, Javascript, Servidor e CDN, Otimização de site com WP Rocket, Figma, Photoshop, Criação e envio de e-Mail Marketing.",
-    },
-  ];
-
   return (
     <ExpContainer>
       <h1>Experiência</h1>

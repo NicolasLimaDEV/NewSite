@@ -4,7 +4,7 @@ export const Stacks = styled.div`
   margin-bottom: 70px;
 
   h1{
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 8px;
   }
 `
@@ -12,7 +12,7 @@ export const Stacks = styled.div`
 export const SkillsIcons = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 550px;
+  width: 650px;
 
   .icon_item{
     display: flex;
