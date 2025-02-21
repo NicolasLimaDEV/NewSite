@@ -125,6 +125,38 @@ export const SocialInfo = styled.div`
   }
 `;
 
+//Cursos, instituições onte estudo
+export const Cursos = styled.article`
+  margin-top: 30px;
+
+  div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+    .icon-study{
+      margin-right: 5px;
+      color: #fff;
+    }
+
+    .icon-study-active{
+      margin-right: 5px;
+      color: var(--verde);
+    }
+
+    h3{
+      font-size: 16px;
+
+      span{
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px;
+      }
+    }
+  }
+
+`
+
 export const LinksItens = styled.div`
   margin-top: 20px;
   display: flex;

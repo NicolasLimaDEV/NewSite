@@ -1,6 +1,8 @@
-import { CardContent, Contratacao, SocialInfo, LinksItens } from "./leftStyle";
+import { CardContent, Contratacao, SocialInfo, LinksItens, Cursos } from "./leftStyle";
 import { TbWorld } from "react-icons/tb";
 import { FaLinkedinIn, FaGithub, FaBehance, FaYoutube } from "react-icons/fa";
+import { PiStudentFill } from "react-icons/pi";
+
 
 const Left = () => {
   const links = [
@@ -64,6 +66,19 @@ const Left = () => {
           Análise e Desenvolvimento de Sistemas <br />
           <span>5° Semestre</span>
         </h4>
+
+        <Cursos>
+          <div>
+            <PiStudentFill className="icon-study-active" />
+            <h3>Rocketseat <span>2025 - Atualmente</span></h3>
+            
+          </div>
+
+          <div>
+            <PiStudentFill className="icon-study" />
+            <h3>Alura <span>2022-2023</span></h3>
+          </div>
+        </Cursos>
 
         <LinksItens>
           {links.map((item) => (
