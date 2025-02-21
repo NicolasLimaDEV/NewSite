@@ -40,7 +40,7 @@ const Left = () => {
 
         <div className="title-infos">
           <h1>Nicolas Lima</h1>
-          <h3>Desenvolvedor Front-end / Back-end</h3>
+          <h3>Desenvolvedor FullStack</h3>
 
           <div className="infos">
             <p>
