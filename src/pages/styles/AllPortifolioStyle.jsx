@@ -43,6 +43,7 @@ export const AllPortMain = styled.main`
     @media screen and (max-width: 769px){
       p{
         width: 100%;
+        padding: 0 25px;
       }
     }
 `
