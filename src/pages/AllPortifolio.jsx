@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { AllPortMain, ContainerCards, PortCard } from "./styles/AllPortifolioStyle";
 
+import { useEffect } from "react";
+
 import altaPressao from "../assets/portfolio/alta-pressao.webp";
 import artefaco from "../assets/portfolio/artefaco.webp";
 import brotos from "../assets/portfolio/brotos.webp";
@@ -285,6 +287,10 @@ export default function Portifolio() {
       linkSite: "https://wexgrow.com.br/",
     },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <AllPortMain>
