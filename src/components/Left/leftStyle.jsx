@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardContent = styled.article`
   padding: 30px!important;
+  margin: 0 10px;
   display: flex;
   flex-direction: column;
 
