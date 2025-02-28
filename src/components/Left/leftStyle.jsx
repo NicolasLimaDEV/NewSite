@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const CardContent = styled.article`
-  padding-left: 30px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 990px) {
     width: 100%;
     padding: 15px;
 
@@ -27,7 +27,7 @@ export const CardContent = styled.article`
       border-radius: 50%;
       margin-right: 10px;
 
-      @media screen and (max-width: 769px) {
+      @media screen and (max-width: 990px) {
         margin-right: 10px;
       }
     }
@@ -48,7 +48,7 @@ export const CardContent = styled.article`
           margin-right: 40px;
         }
 
-        @media screen and (max-width: 769px) {
+        @media screen and (max-width: 990px) {
           font-size: 15px;
           margin-right: 60px;
         }
@@ -74,7 +74,7 @@ export const Contratacao = styled.article`
   align-items: center;
   margin-top: 7px;
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 990px) {
     p {
       font-size: 14px;
     }

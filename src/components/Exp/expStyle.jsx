@@ -13,7 +13,7 @@ export const ExpCardContent = styled.div`
   align-items: center;
   margin-top: 15px;
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 990px) {
     flex-direction: column;
   }
 `;
@@ -28,7 +28,7 @@ export const ExpoCard = styled.div`
   border-radius: 12px;
   border: 1px solid var(--borderColor);
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 990px) {
     margin: 6px 0;
     width: 100%;
   }
@@ -64,7 +64,7 @@ export const ExpoCard = styled.div`
       color: var(--verde);
     }
 
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 990px) {
       font-size: 15px;
     }
   }

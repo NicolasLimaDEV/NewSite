@@ -109,7 +109,7 @@ export const Card = styled.a`
     font-style: italic;
   }
 
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 990px){
     width: 300px;
     margin: 10px 0px;
 

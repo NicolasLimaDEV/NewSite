@@ -16,7 +16,7 @@ export const Sobre = styled.div`
     font-weight: 300;
     line-height: 26px;
 
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 990px) {
       width: 100%;
     }
   }

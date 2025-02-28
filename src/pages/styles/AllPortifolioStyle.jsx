@@ -40,7 +40,7 @@ export const AllPortMain = styled.main`
         font-size: 16px;
     }
 
-    @media screen and (max-width: 769px){
+    @media screen and (max-width: 990px){
       p{
         width: 100%;
         padding: 0 25px;
@@ -98,7 +98,7 @@ export const PortCard = styled.a`
     text-align: start;
   }
 
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 990px){
     width: 300px;
     height: 230px;
     margin: 10px;

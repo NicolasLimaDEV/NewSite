@@ -37,7 +37,7 @@ export const SkillsIcons = styled.div`
     }
   }
 
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 990px){
     width: 100%;
   }
 `
