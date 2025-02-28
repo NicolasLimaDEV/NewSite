@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardContent = styled.article`
-  padding: 30px;
+  padding: 30px!important;
   display: flex;
   flex-direction: column;
 
@@ -117,6 +117,7 @@ export const SocialInfo = styled.div`
     color: var(--textCinza);
     font-weight: 400;
     font-style: italic;
+    font-size: 15px;
 
     span {
       color: var(--verde);
