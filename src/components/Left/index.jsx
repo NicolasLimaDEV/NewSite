@@ -42,7 +42,7 @@ const Left = () => {
 
         <div className="title-infos">
           <h1>Nicolas Lima</h1>
-          <h3>Desenvolvedor FullStack</h3>
+          <h3>Dev. FullStack</h3>
 
           <div className="infos">
             <p>

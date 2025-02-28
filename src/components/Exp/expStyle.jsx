@@ -34,8 +34,12 @@ export const ExpoCard = styled.div`
   }
 
   img {
-    width: 63px;
+    width: 70px;
     margin-right: 10px;
+  }
+
+  .id-logo{
+    width: 55px;
   }
 
   h1 {

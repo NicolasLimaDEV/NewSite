@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const CardContent = styled.article`
-  padding: 15px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
 
   @media screen and (max-width: 769px) {
     width: 100%;
+    padding: 15px;
 
     .title-infos {
       h3 {

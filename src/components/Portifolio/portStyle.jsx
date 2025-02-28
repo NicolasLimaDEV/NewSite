@@ -52,14 +52,16 @@ export const SectionPort = styled.section`
     font-weight: bold;
     transition: all 0.2s;
 
+    
+
     &:hover{
       color: var(--bgPage);
       background-color: var(--verde);
 
       margin-left: 10px;
-    }
+    }  
   }
-  
+
 `;
 
 export const SectionCards = styled.div`
@@ -105,5 +107,14 @@ export const Card = styled.a`
     font-weight: 300;
     font-size: 14px;
     font-style: italic;
+  }
+
+  @media screen and (max-width: 769px){
+    width: 300px;
+    margin: 10px 0px;
+
+    &:nth-child(4){
+      margin-bottom: 30px;
+    }
   }
 `;
