@@ -27,7 +27,7 @@ body{
 
 :root{
   --bgPage: #121214;
-  --textBranco: #fff;
+  --textBranco: #ffffff;
   --textCinza: #8e8e8e;
   --roxo: #8257e5;
   --roxoHover: #633BBC;
@@ -57,6 +57,7 @@ body{
     width: 100%;
   }
 }
+
 
 @media screen and (max-width: 820px){
   .fix_container{

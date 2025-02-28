@@ -1,7 +1,7 @@
 import { ExpContainer, ExpCardContent, ExpoCard } from "./expStyle";
 
-import LogoCT from "../../assets/cthublogo.png";
-import LogoEV from "../../assets/evitrinelogo.png";
+import LogoCT from "../../assets/cthublogo.webp";
+import LogoEV from "../../assets/evitrinelogo.webp";
 import LogoID from "../../assets/integracao-branco.webp";
 
 const Exp = () => {

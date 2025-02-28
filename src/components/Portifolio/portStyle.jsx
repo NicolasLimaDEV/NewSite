@@ -24,7 +24,7 @@ export const SectionPort = styled.section`
   }
 
   .link-git{
-    margin-top: 23px;
+    margin-top: 50px;
 
     h4{
       margin-bottom: 8px;
@@ -42,6 +42,23 @@ export const SectionPort = styled.section`
       }
     }
   }
+
+  .btn-all-portifolio{
+    background-color: var(--textBranco);
+    color: var(--bgPage);
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s;
+
+    &:hover{
+      color: var(--bgPage);
+      background-color: var(--verde);
+
+      margin-left: 10px;
+    }
+  }
   
 `;
 
@@ -54,6 +71,7 @@ export const Card = styled.a`
   width: 260px;
   background-color: var(--menuMobile);
   margin-top: 20px;
+  margin-bottom: 30px;
   margin-right: 10px;
   padding: 8px;
   border-radius: 15px;

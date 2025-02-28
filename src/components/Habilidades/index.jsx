@@ -1,7 +1,5 @@
 import { Stacks, SkillsIcons } from "./habilidadesStyle";
 
-import iconHTML from "../../assets/icones/html-5.png";
-import iconCSS from "../../assets/icones/css-3.png";
 import iconJS from "../../assets/icones/js.png";
 import iconBS from "../../assets/icones/bootstrap.png";
 import iconReact from "../../assets/icones/react.svg";
