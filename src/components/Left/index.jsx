@@ -50,12 +50,10 @@ const Left = () => {
               <TbWorld color="#19c994" /> São Paulo, Brasil
             </p>
 
-            {/*
             <Contratacao>
               <div></div>
-              <p>disponível para contratação</p>
+              <p>Disponível para contratação</p>
             </Contratacao> 
-            */}
           </div>
         </div>
       </div>
@@ -64,7 +62,7 @@ const Left = () => {
         <h3>FIT - Faculdade Impacta</h3>
         <h4>
           Análise e Desenvolvimento de Sistemas <br />
-          <span>5° Semestre</span>
+          <span>Formado</span>
         </h4>
 
         <Cursos>

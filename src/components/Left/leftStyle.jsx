@@ -118,7 +118,7 @@ export const SocialInfo = styled.div`
     color: var(--textCinza);
     font-weight: 400;
     font-style: italic;
-    font-size: 15px;
+    font-size: 13.5px;
 
     span {
       color: var(--verde);
